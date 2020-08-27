@@ -1,5 +1,5 @@
 const timeDisplay = document.getElementById("cdown");
-const event = new Date(2020, 11, 11, 0, 0, 0);
+const event = new Date(2020, 10, 11, 0, 0, 0);
 
 const t_sec = 1000;
 const t_min = 60 * t_sec;
