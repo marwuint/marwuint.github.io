@@ -1,0 +1,50 @@
+p, h2 {
+
+    font-family: 'Overpass';
+    font-size: 36px;
+    font-weight: 200;
+}
+h1 {
+    font-family: 'Roboto Mono';
+    font-size: 72px;
+    font-weight: 100;
+}
+
+h1, h2 {
+    margin: 0.1rem;
+    user-select: none;
+    color: #fff;
+    text-shadow:  2px 2px 5px #000;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100%;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+body {
+    background: linear-gradient(#0008, #0005), url('/bg.png');
+    background-size: 200% 200%;
+
+    animation: grad 50s ease infinite;
+}
+
+@keyframes grad {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
